@@ -1,0 +1,27 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-color: beige;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .6vh;
+    padding-bottom: .6vh;
+}
+.header-content li{
+    margin-inline: 5vw;
+}
+.header h1{
+    max-width: fit-content;
+    margin-inline: auto;
+
+}
+.header-content li{
+    list-style: none;
+}
+.header-content li img{
+    max-width: 55%;  
+}
